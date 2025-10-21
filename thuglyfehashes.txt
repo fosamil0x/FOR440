@@ -1,0 +1,6 @@
+data1.bin	92910b8ec24ace49e3a6eecf3670ff57
+data2.bin	5207fe630502c3ff2515dd49683c9b2e
+data3.bin	7fd126c4884e6d837e2ba80208163cfe
+data4.bin	6a2366799b5474a70e782666fb074e9f
+thug_simulator.exe	5682fbfe820380bb5ffcba682eacbc0a
+thuglyfe.zip	b2662574a0ea125347cdab991829a913
