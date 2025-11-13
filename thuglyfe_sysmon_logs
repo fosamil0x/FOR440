@@ -1,0 +1,2219 @@
+root@ubuntu-22:/# sudo tail -f /var/log/syslog | sudo /opt/sysmon/sysmonLogView
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:30.212
+	ProcessGuid: {b5bc5867-324d-6916-9018-3e30f95b0000}
+	ProcessId: 50009
+	Image: /snap/snap/firefox/7298/usr/lib/firefox/pingsender
+	User: champuser
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:30.213
+	ProcessGuid: {b5bc5867-58a9-690a-415c-e3d2a7610000}
+	ProcessId: 220
+	User: -
+	Image: /usr/lib/systemd/systemd-journald
+	TargetFilename: /run/systemd/journal/streams/8:479702
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:30.217
+	ProcessGuid: {b5bc5867-7440-690a-8d65-a451625b0000}
+	ProcessId: 1222
+	User: champuser
+	Image: /usr/lib/systemd/systemd
+	TargetFilename: /run/user/1000/systemd/units/invocation:snap.firefox.firefox-f17451d9-1f34-4edc-9042-cc9d38b3da24.scope
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:30.217
+	ProcessGuid: {b5bc5867-7440-690a-8d65-a451625b0000}
+	ProcessId: 1222
+	User: champuser
+	Image: /usr/lib/systemd/systemd
+	TargetFilename: /run/user/1000/systemd/transient/snap.firefox.firefox-f17451d9-1f34-4edc-9042-cc9d38b3da24.scope
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:31.520
+	ProcessGuid: {b5bc5867-324f-6916-8125-059ccd5f0000}
+	ProcessId: 50018
+	Image: /usr/bin/clear
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: clear
+	CurrentDirectory: /
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000003000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=cf5ffd65e54f7404dfd6796e20be2d204ca49aa23693678970187c9d13f7eb5c
+	ParentProcessGuid: {b5bc5867-30ed-6916-6daf-c183635d0000}
+	ParentProcessId: 48649
+	ParentImage: /usr/bin/bash
+	ParentCommandLine: -bash
+	ParentUser: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:31.526
+	ProcessGuid: {b5bc5867-324f-6916-8125-059ccd5f0000}
+	ProcessId: 50018
+	Image: /usr/bin/clear
+	User: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:33.284
+	ProcessGuid: {b5bc5867-3251-6916-fda4-9b41bb590000}
+	ProcessId: 50019
+	Image: /usr/bin/sudo
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: sudo tail -f /var/log/syslog
+	CurrentDirectory: /
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000003000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=686287d80efa1400561301a1c9fc1d35e03b74adde29bd94e5178a36e7b0a6c8
+	ParentProcessGuid: {b5bc5867-30ed-6916-6daf-c183635d0000}
+	ParentProcessId: 48649
+	ParentImage: /usr/bin/bash
+	ParentCommandLine: -bash
+	ParentUser: root
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:33.285
+	ProcessGuid: {b5bc5867-3251-6916-fdf4-1bae73620000}
+	ProcessId: 50020
+	Image: /usr/bin/sudo
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: sudo /opt/sysmon/sysmonLogView
+	CurrentDirectory: /
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000003000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=686287d80efa1400561301a1c9fc1d35e03b74adde29bd94e5178a36e7b0a6c8
+	ParentProcessGuid: {b5bc5867-30ed-6916-6daf-c183635d0000}
+	ParentProcessId: 48649
+	ParentImage: /usr/bin/bash
+	ParentCommandLine: -bash
+	ParentUser: root
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:33.311
+	ProcessGuid: {b5bc5867-3251-6916-a516-a363265e0000}
+	ProcessId: 50022
+	Image: /opt/sysmon/sysmonLogView
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: /opt/sysmon/sysmonLogView
+	CurrentDirectory: /
+	User: root
+	LogonGuid: {b5bc5867-3251-6916-0000-000004000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=89fbc4bd0421805688a1bb6a248d9dd07f7bb6be7a395b8e97ff08f1e09add51
+	ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ParentProcessId: 50021
+	ParentImage: -
+	ParentCommandLine: -
+	ParentUser: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:33.324
+	ProcessGuid: {b5bc5867-3251-6916-41ca-e94ada5f0000}
+	ProcessId: 50024
+	Image: /usr/bin/tail
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: tail -f /var/log/syslog
+	CurrentDirectory: /
+	User: root
+	LogonGuid: {b5bc5867-3251-6916-0000-000005000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=d686c3513b6ecbcc6ac826383bd4b8b0f00aa6500d8d3d5e593687a3dee8fce0
+	ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ParentProcessId: 50023
+	ParentImage: -
+	ParentCommandLine: -
+	ParentUser: -
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:34.995
+	ProcessGuid: {b5bc5867-7441-690a-9d8a-89a2ef5a0000}
+	ProcessId: 1466
+	Image: /usr/bin/gnome-shell
+	User: champuser
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:44.375
+	ProcessGuid: {b5bc5867-325c-6916-6181-d29f2e600000}
+	ProcessId: 50026
+	Image: /home/champuser/Desktop/Week11/thuglyfe/thug_simulator
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: ./thug_simulator
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000001000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=0c2c9ee1523ee00fbf144904749654f0eeaf888ff492f00b01b8caba16e11ce0
+	ParentProcessGuid: {b5bc5867-309c-6916-6d6f-227b165b0000}
+	ParentProcessId: 48589
+	ParentImage: /usr/bin/bash
+	ParentCommandLine: -bash
+	ParentUser: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:44.946
+	ProcessGuid: {b5bc5867-7443-690a-ad86-4c5b72560000}
+	ProcessId: 1703
+	Image: /usr/libexec/xdg-desktop-portal
+	User: champuser
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:44.947
+	ProcessGuid: {b5bc5867-7440-690a-6dd5-3ce8db630000}
+	ProcessId: 1261
+	Image: /usr/libexec/xdg-document-portal
+	User: champuser
+Event SYSMONEVENT_FILE_CREATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:49.399
+	ProcessGuid: {b5bc5867-325c-6916-6181-d29f2e600000}
+	ProcessId: 50026
+	Image: /home/champuser/Desktop/Week11/thuglyfe/thug_simulator
+	TargetFilename: /var/tmp/asefa.sh
+	CreationUtcTime: 2025-11-13 19:32:49.399
+	User: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.400
+	ProcessGuid: {b5bc5867-3263-6916-6d9f-e2d108580000}
+	ProcessId: 50027
+	Image: /usr/bin/bash
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: bash -c /var/tmp/asefa.sh
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000001000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=59474588a312b6b6e73e5a42a59bf71e62b55416b6c9d5e4a6e1c630c2a9ecd4
+	ParentProcessGuid: {b5bc5867-325c-6916-6181-d29f2e600000}
+	ParentProcessId: 50026
+	ParentImage: /home/champuser/Desktop/Week11/thuglyfe/thug_simulator
+	ParentCommandLine: ./thug_simulator
+	ParentUser: root
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.400
+	ProcessGuid: {b5bc5867-3263-6916-6d1f-86fe8e580000}
+	ProcessId: 50027
+	Image: /usr/bin/bash
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: /bin/bash /var/tmp/asefa.sh
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000001000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=59474588a312b6b6e73e5a42a59bf71e62b55416b6c9d5e4a6e1c630c2a9ecd4
+	ParentProcessGuid: {b5bc5867-325c-6916-6181-d29f2e600000}
+	ParentProcessId: 50026
+	ParentImage: /home/champuser/Desktop/Week11/thuglyfe/thug_simulator
+	ParentCommandLine: ./thug_simulator
+	ParentUser: root
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.416
+	ProcessGuid: {b5bc5867-3263-6916-31a0-50a681590000}
+	ProcessId: 50028
+	Image: /usr/bin/uname
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: uname -a
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000001000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=37df0311d0e24169abfd166bc6018d40b87306f7ff64d9eec256c8331ac26347
+	ParentProcessGuid: {b5bc5867-3263-6916-6d9f-e2d108580000}
+	ParentProcessId: 50027
+	ParentImage: /usr/bin/bash
+	ParentCommandLine: bash
+	ParentUser: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.420
+	ProcessGuid: {b5bc5867-3263-6916-31a0-50a681590000}
+	ProcessId: 50028
+	Image: /usr/bin/uname
+	User: root
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.421
+	ProcessGuid: {b5bc5867-3263-6916-e963-43196f570000}
+	ProcessId: 50029
+	Image: /usr/bin/ip
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: ip a show
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000001000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=40cd6fd071451ae104d23783b6ae22efff4f1099167d73b41ce900fc49c8abaa
+	ParentProcessGuid: {b5bc5867-3263-6916-6d9f-e2d108580000}
+	ParentProcessId: 50027
+	ParentImage: /usr/bin/bash
+	ParentCommandLine: bash
+	ParentUser: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.464
+	ProcessGuid: {b5bc5867-3263-6916-e963-43196f570000}
+	ProcessId: 50029
+	Image: /usr/bin/ip
+	User: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.464
+	ProcessGuid: {b5bc5867-3263-6916-815b-13ab7a5d0000}
+	ProcessId: 50030
+	Image: /usr/bin/cat
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: cat /etc/resolv.conf
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000001000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=210ffa7daedb3ef6e9230d391e9a10043699ba81080ebf40c6de70ed77e278ba
+	ParentProcessGuid: {b5bc5867-3263-6916-6d1f-86fe8e580000}
+	ParentProcessId: 50027
+	ParentImage: /usr/bin/bash
+	ParentCommandLine: /bin/bash
+	ParentUser: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.466
+	ProcessGuid: {b5bc5867-3263-6916-815b-13ab7a5d0000}
+	ProcessId: 50030
+	Image: /usr/bin/cat
+	User: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.466
+	ProcessGuid: {b5bc5867-3263-6916-0d4d-3e72c75b0000}
+	ProcessId: 50031
+	Image: /usr/bin/ss
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: ss -anop
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000001000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=5eb16d9a8bc81fe767725874e3f67623b8e86b46ec93546be49c5b09d3ab4636
+	ParentProcessGuid: {b5bc5867-3263-6916-6d1f-86fe8e580000}
+	ParentProcessId: 50027
+	ParentImage: /usr/bin/bash
+	ParentCommandLine: /bin/bash
+	ParentUser: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.512
+	ProcessGuid: {b5bc5867-3263-6916-0d4d-3e72c75b0000}
+	ProcessId: 50031
+	Image: /usr/bin/ss
+	User: root
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.512
+	ProcessGuid: {b5bc5867-3263-6916-81bb-1b61b25d0000}
+	ProcessId: 50032
+	Image: /usr/bin/cat
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: cat /etc/passwd
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000001000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=210ffa7daedb3ef6e9230d391e9a10043699ba81080ebf40c6de70ed77e278ba
+	ParentProcessGuid: {b5bc5867-3263-6916-6d1f-86fe8e580000}
+	ParentProcessId: 50027
+	ParentImage: /usr/bin/bash
+	ParentCommandLine: /bin/bash
+	ParentUser: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.514
+	ProcessGuid: {b5bc5867-3263-6916-81bb-1b61b25d0000}
+	ProcessId: 50032
+	Image: /usr/bin/cat
+	User: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.514
+	ProcessGuid: {b5bc5867-3263-6916-81bb-df57fa5f0000}
+	ProcessId: 50033
+	Image: /usr/bin/cat
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: cat /etc/shadow
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000001000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=210ffa7daedb3ef6e9230d391e9a10043699ba81080ebf40c6de70ed77e278ba
+	ParentProcessGuid: {b5bc5867-3263-6916-6d1f-86fe8e580000}
+	ParentProcessId: 50027
+	ParentImage: /usr/bin/bash
+	ParentCommandLine: /bin/bash
+	ParentUser: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.515
+	ProcessGuid: {b5bc5867-3263-6916-81bb-df57fa5f0000}
+	ProcessId: 50033
+	Image: /usr/bin/cat
+	User: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.515
+	ProcessGuid: {b5bc5867-3263-6916-ed2f-8016fc5e0000}
+	ProcessId: 50034
+	Image: /usr/bin/systemctl
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: systemctl list-units
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000001000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=41834a675dbc3a7fc0169a24e655c5f14d8045bc7094efa65b35d8c69eb3df27
+	ParentProcessGuid: {b5bc5867-3263-6916-6d1f-86fe8e580000}
+	ParentProcessId: 50027
+	ParentImage: /usr/bin/bash
+	ParentCommandLine: /bin/bash
+	ParentUser: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.546
+	ProcessGuid: {b5bc5867-3263-6916-ed2f-8016fc5e0000}
+	ProcessId: 50034
+	Image: /usr/bin/systemctl
+	User: root
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.548
+	ProcessGuid: {b5bc5867-3263-6916-f112-ad88585f0000}
+	ProcessId: 50035
+	Image: /usr/bin/crontab
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: crontab -l
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000001000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=11651a4bd5c9605dac9df09bcb1ce16e40e740558766081a784e16db0098c042
+	ParentProcessGuid: {b5bc5867-3263-6916-6d1f-86fe8e580000}
+	ParentProcessId: 50027
+	ParentImage: /usr/bin/bash
+	ParentCommandLine: /bin/bash
+	ParentUser: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.558
+	ProcessGuid: {b5bc5867-3263-6916-f112-ad88585f0000}
+	ProcessId: 50035
+	Image: /usr/bin/crontab
+	User: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.559
+	ProcessGuid: {b5bc5867-3263-6916-797c-170f93550000}
+	ProcessId: 50036
+	Image: /usr/bin/dpkg
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: dpkg -l
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000001000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=4ae8588bf294e388152a40c21941397a6ef309573cf21c1904e1b1d0e8ed7b6b
+	ParentProcessGuid: {b5bc5867-3263-6916-6d1f-86fe8e580000}
+	ParentProcessId: 50027
+	ParentImage: /usr/bin/bash
+	ParentCommandLine: /bin/bash
+	ParentUser: root
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.559
+	ProcessGuid: {b5bc5867-3263-6916-0156-24ecb75f0000}
+	ProcessId: 50036
+	Image: /usr/bin/dpkg-query
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: dpkg-query --list --
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000001000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=11b7055ec6ec739838f171182ced296ca75ec2da2d32e4331e9926021d6f8d08
+	ParentProcessGuid: {b5bc5867-3263-6916-6d1f-86fe8e580000}
+	ParentProcessId: 50027
+	ParentImage: /usr/bin/bash
+	ParentCommandLine: /bin/bash
+	ParentUser: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.607
+	ProcessGuid: {b5bc5867-3263-6916-0156-24ecb75f0000}
+	ProcessId: 50036
+	Image: /usr/bin/dpkg-query
+	User: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.607
+	ProcessGuid: {b5bc5867-3263-6916-812b-114aff5c0000}
+	ProcessId: 50037
+	Image: /usr/bin/cat
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: cat /etc/rc.local
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000001000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=210ffa7daedb3ef6e9230d391e9a10043699ba81080ebf40c6de70ed77e278ba
+	ParentProcessGuid: {b5bc5867-3263-6916-6d1f-86fe8e580000}
+	ParentProcessId: 50027
+	ParentImage: /usr/bin/bash
+	ParentCommandLine: /bin/bash
+	ParentUser: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.609
+	ProcessGuid: {b5bc5867-3263-6916-812b-114aff5c0000}
+	ProcessId: 50037
+	Image: /usr/bin/cat
+	User: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.610
+	ProcessGuid: {b5bc5867-3263-6916-81cb-ac8512630000}
+	ProcessId: 50038
+	Image: /usr/bin/cat
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: cat /home/root/.bashrc
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000001000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=210ffa7daedb3ef6e9230d391e9a10043699ba81080ebf40c6de70ed77e278ba
+	ParentProcessGuid: {b5bc5867-3263-6916-6d1f-86fe8e580000}
+	ParentProcessId: 50027
+	ParentImage: /usr/bin/bash
+	ParentCommandLine: /bin/bash
+	ParentUser: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.612
+	ProcessGuid: {b5bc5867-3263-6916-81cb-ac8512630000}
+	ProcessId: 50038
+	Image: /usr/bin/cat
+	User: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.612
+	ProcessGuid: {b5bc5867-3263-6916-81bb-6c4077570000}
+	ProcessId: 50039
+	Image: /usr/bin/cat
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: cat
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000001000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=210ffa7daedb3ef6e9230d391e9a10043699ba81080ebf40c6de70ed77e278ba
+	ParentProcessGuid: {b5bc5867-3263-6916-6d1f-86fe8e580000}
+	ParentProcessId: 50027
+	ParentImage: /usr/bin/bash
+	ParentCommandLine: /bin/bash
+	ParentUser: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.613
+	ProcessGuid: {b5bc5867-3263-6916-81bb-6c4077570000}
+	ProcessId: 50039
+	Image: /usr/bin/cat
+	User: root
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.614
+	ProcessGuid: {b5bc5867-3263-6916-f119-275994560000}
+	ProcessId: 50040
+	Image: /usr/bin/chmod
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: chmod +x /etc/systemd/system/thuglyfe.service
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000001000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=e624a2e918718e570f989dd05b219278c9fa7ae3b3ab8830302b2d98e0c7dca8
+	ParentProcessGuid: {b5bc5867-3263-6916-6d1f-86fe8e580000}
+	ParentProcessId: 50027
+	ParentImage: /usr/bin/bash
+	ParentCommandLine: /bin/bash
+	ParentUser: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.618
+	ProcessGuid: {b5bc5867-3263-6916-f119-275994560000}
+	ProcessId: 50040
+	Image: /usr/bin/chmod
+	User: root
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.619
+	ProcessGuid: {b5bc5867-3263-6916-ed3f-86c3c5620000}
+	ProcessId: 50041
+	Image: /usr/bin/systemctl
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: systemctl enable thuglyfe.service
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000001000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=41834a675dbc3a7fc0169a24e655c5f14d8045bc7094efa65b35d8c69eb3df27
+	ParentProcessGuid: {b5bc5867-3263-6916-6d1f-86fe8e580000}
+	ParentProcessId: 50027
+	ParentImage: /usr/bin/bash
+	ParentCommandLine: /bin/bash
+	ParentUser: root
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.683
+	ProcessGuid: {b5bc5867-58a7-690a-8d65-e0b4e05e0000}
+	ProcessId: 1
+	User: -
+	Image: /usr/lib/systemd/systemd
+	TargetFilename: /run/systemd/generator/netplan.stamp
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.683
+	ProcessGuid: {b5bc5867-58a7-690a-8d65-e0b4e05e0000}
+	ProcessId: 1
+	User: -
+	Image: /usr/lib/systemd/systemd
+	TargetFilename: /run/systemd/generator/swap.target.requires/swapfile.swap
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.683
+	ProcessGuid: {b5bc5867-58a7-690a-8d65-e0b4e05e0000}
+	ProcessId: 1
+	User: -
+	Image: /usr/lib/systemd/systemd
+	TargetFilename: /run/systemd/generator/swapfile.swap
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.683
+	ProcessGuid: {b5bc5867-58a7-690a-8d65-e0b4e05e0000}
+	ProcessId: 1
+	User: -
+	Image: /usr/lib/systemd/systemd
+	TargetFilename: /run/systemd/generator/boot-efi.mount
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.683
+	ProcessGuid: {b5bc5867-58a7-690a-8d65-e0b4e05e0000}
+	ProcessId: 1
+	User: -
+	Image: /usr/lib/systemd/systemd
+	TargetFilename: /run/systemd/generator/local-fs.target.requires/boot-efi.mount
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.683
+	ProcessGuid: {b5bc5867-58a7-690a-8d65-e0b4e05e0000}
+	ProcessId: 1
+	User: -
+	Image: /usr/lib/systemd/systemd
+	TargetFilename: /run/systemd/generator/local-fs.target.requires/-.mount
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.683
+	ProcessGuid: {b5bc5867-58a7-690a-8d65-e0b4e05e0000}
+	ProcessId: 1
+	User: -
+	Image: /usr/lib/systemd/systemd
+	TargetFilename: /run/systemd/generator/local-fs.target.wants/systemd-remount-fs.service
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.683
+	ProcessGuid: {b5bc5867-58a7-690a-8d65-e0b4e05e0000}
+	ProcessId: 1
+	User: -
+	Image: /usr/lib/systemd/systemd
+	TargetFilename: /run/systemd/generator/local-fs.target.wants/systemd-fsck-root.service
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.683
+	ProcessGuid: {b5bc5867-58a7-690a-8d65-e0b4e05e0000}
+	ProcessId: 1
+	User: -
+	Image: /usr/lib/systemd/systemd
+	TargetFilename: /run/systemd/generator/-.mount
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.683
+	ProcessGuid: {b5bc5867-58a7-690a-8d65-e0b4e05e0000}
+	ProcessId: 1
+	User: -
+	Image: /usr/lib/systemd/systemd
+	TargetFilename: /run/systemd/generator.late/speech-dispatcher.service
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.683
+	ProcessGuid: {b5bc5867-58a7-690a-8d65-e0b4e05e0000}
+	ProcessId: 1
+	User: -
+	Image: /usr/lib/systemd/systemd
+	TargetFilename: /run/systemd/generator.late/graphical.target.wants/apport.service
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.683
+	ProcessGuid: {b5bc5867-58a7-690a-8d65-e0b4e05e0000}
+	ProcessId: 1
+	User: -
+	Image: /usr/lib/systemd/systemd
+	TargetFilename: /run/systemd/generator.late/multi-user.target.wants/apport.service
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.683
+	ProcessGuid: {b5bc5867-58a7-690a-8d65-e0b4e05e0000}
+	ProcessId: 1
+	User: -
+	Image: /usr/lib/systemd/systemd
+	TargetFilename: /run/systemd/generator.late/apport.service
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.687
+	ProcessGuid: {b5bc5867-3263-6916-19d3-1d93c1610000}
+	ProcessId: 50043
+	Image: /usr/lib/systemd/system-environment-generators/snapd-env-generator
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: /usr/lib/systemd/system-environment-generators/snapd-env-generator
+	CurrentDirectory: /
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000000000000}
+	LogonId: 0
+	TerminalSessionId: 4294967295
+	IntegrityLevel: no level
+	Hashes: SHA256=323e5af0984bd39030d8b9e3d8f94050f641fd637996a47af3b2da97cacc15f8
+	ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ParentProcessId: 50042
+	ParentImage: -
+	ParentCommandLine: -
+	ParentUser: -
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.690
+	ProcessGuid: {b5bc5867-3263-6916-19d3-1d93c1610000}
+	ProcessId: 50043
+	Image: /usr/lib/systemd/system-environment-generators/snapd-env-generator
+	User: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.691
+	ProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ProcessId: 50042
+	Image: <unknown process>
+	User: root
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.693
+	ProcessGuid: {b5bc5867-3263-6916-95a9-a5ad525c0000}
+	ProcessId: 50045
+	Image: /usr/bin/dash
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: /bin/sh /usr/lib/systemd/system-generators/friendly-recovery /run/systemd/generator /run/systemd/generator.early /run/systemd/generator.late
+	CurrentDirectory: /
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000000000000}
+	LogonId: 0
+	TerminalSessionId: 4294967295
+	IntegrityLevel: no level
+	Hashes: SHA256=4f291296e89b784cd35479fca606f228126e3641f5bcaee68dee36583d7c9483
+	ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ParentProcessId: 50044
+	ParentImage: -
+	ParentCommandLine: -
+	ParentUser: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.694
+	ProcessGuid: {b5bc5867-3263-6916-edcf-982545590000}
+	ProcessId: 50051
+	Image: /usr/lib/systemd/system-generators/systemd-cryptsetup-generator
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: /usr/lib/systemd/system-generators/systemd-cryptsetup-generator /run/systemd/generator /run/systemd/generator.early /run/systemd/generator.late
+	CurrentDirectory: /
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000000000000}
+	LogonId: 0
+	TerminalSessionId: 4294967295
+	IntegrityLevel: no level
+	Hashes: SHA256=87632c6198099bc12c2553d40696e2c17a4d233075a2dd5364f288374a9df2f5
+	ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ParentProcessId: 50044
+	ParentImage: -
+	ParentCommandLine: -
+	ParentUser: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.694
+	ProcessGuid: {b5bc5867-3263-6916-818b-f03abf5c0000}
+	ProcessId: 50050
+	Image: /usr/bin/cat
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: cat /proc/cmdline
+	CurrentDirectory: /
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000000000000}
+	LogonId: 0
+	TerminalSessionId: 4294967295
+	IntegrityLevel: no level
+	Hashes: SHA256=210ffa7daedb3ef6e9230d391e9a10043699ba81080ebf40c6de70ed77e278ba
+	ParentProcessGuid: {b5bc5867-3263-6916-95a9-a5ad525c0000}
+	ParentProcessId: 50045
+	ParentImage: /usr/bin/dash
+	ParentCommandLine: /bin/sh
+	ParentUser: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.696
+	ProcessGuid: {b5bc5867-3263-6916-818b-f03abf5c0000}
+	ProcessId: 50050
+	Image: /usr/bin/cat
+	User: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.693
+	ProcessGuid: {b5bc5867-3263-6916-1944-c954105e0000}
+	ProcessId: 50046
+	Image: /usr/libexec/netplan/generate
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: /usr/lib/systemd/system-generators/netplan /run/systemd/generator /run/systemd/generator.early /run/systemd/generator.late
+	CurrentDirectory: /
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000000000000}
+	LogonId: 0
+	TerminalSessionId: 4294967295
+	IntegrityLevel: no level
+	Hashes: SHA256=84d18b659f455d6fd6c78d86bbb35b31debf7b946de3554f860f1354c97deeb6
+	ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ParentProcessId: 50044
+	ParentImage: -
+	ParentCommandLine: -
+	ParentUser: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.693
+	ProcessGuid: {b5bc5867-3263-6916-95f9-506dd85f0000}
+	ProcessId: 50047
+	Image: /usr/bin/dash
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: /bin/sh /usr/lib/systemd/system-generators/openvpn-generator /run/systemd/generator /run/systemd/generator.early /run/systemd/generator.late
+	CurrentDirectory: /
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000000000000}
+	LogonId: 0
+	TerminalSessionId: 4294967295
+	IntegrityLevel: no level
+	Hashes: SHA256=4f291296e89b784cd35479fca606f228126e3641f5bcaee68dee36583d7c9483
+	ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ParentProcessId: 50044
+	ParentImage: -
+	ParentCommandLine: -
+	ParentUser: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.700
+	ProcessGuid: {b5bc5867-3263-6916-e1d4-03edda600000}
+	ProcessId: 50052
+	Image: /usr/bin/mkdir
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: mkdir -p /run/systemd/generator/openvpn.service.wants
+	CurrentDirectory: /
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000000000000}
+	LogonId: 0
+	TerminalSessionId: 4294967295
+	IntegrityLevel: no level
+	Hashes: SHA256=bd2f081ac37d653181332bd27f35a6041dbf215a7957f65838a9cbec9e64928b
+	ParentProcessGuid: {b5bc5867-3263-6916-95f9-506dd85f0000}
+	ParentProcessId: 50047
+	ParentImage: /usr/bin/dash
+	ParentCommandLine: /bin/sh
+	ParentUser: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.701
+	ProcessGuid: {b5bc5867-3263-6916-95a9-a5ad525c0000}
+	ProcessId: 50045
+	Image: /usr/bin/dash
+	User: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.702
+	ProcessGuid: {b5bc5867-3263-6916-e1d4-03edda600000}
+	ProcessId: 50052
+	Image: /usr/bin/mkdir
+	User: root
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.694
+	ProcessGuid: {b5bc5867-3263-6916-39e6-2109125a0000}
+	ProcessId: 50049
+	Image: /usr/lib/systemd/system-generators/systemd-bless-boot-generator
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: /usr/lib/systemd/system-generators/systemd-bless-boot-generator /run/systemd/generator /run/systemd/generator.early /run/systemd/generator.late
+	CurrentDirectory: /
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000000000000}
+	LogonId: 0
+	TerminalSessionId: 4294967295
+	IntegrityLevel: no level
+	Hashes: SHA256=7da2a19d0e845ffcafc0f4ca2021c361ad5995266695713b5a97997bfb8a6043
+	ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ParentProcessId: 50044
+	ParentImage: -
+	ParentCommandLine: -
+	ParentUser: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.694
+	ProcessGuid: {b5bc5867-3263-6916-4502-f0160c5e0000}
+	ProcessId: 50048
+	Image: /usr/lib/systemd/system-generators/snapd-generator
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: /usr/lib/systemd/system-generators/snapd-generator /run/systemd/generator /run/systemd/generator.early /run/systemd/generator.late
+	CurrentDirectory: /
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000000000000}
+	LogonId: 0
+	TerminalSessionId: 4294967295
+	IntegrityLevel: no level
+	Hashes: SHA256=be47909923b90b30655a69ac92a3543a8bc32d98f3645d27d04144d81bc7a3e4
+	ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ParentProcessId: 50044
+	ParentImage: -
+	ParentCommandLine: -
+	ParentUser: -
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.706
+	ProcessGuid: {b5bc5867-3263-6916-4502-f0160c5e0000}
+	ProcessId: 50048
+	Image: /usr/lib/systemd/system-generators/snapd-generator
+	User: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.707
+	ProcessGuid: {b5bc5867-3263-6916-6d2f-a84134620000}
+	ProcessId: 50053
+	Image: /usr/lib/systemd/system-generators/systemd-debug-generator
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: /usr/lib/systemd/system-generators/systemd-debug-generator /run/systemd/generator /run/systemd/generator.early /run/systemd/generator.late
+	CurrentDirectory: /
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000000000000}
+	LogonId: 0
+	TerminalSessionId: 4294967295
+	IntegrityLevel: no level
+	Hashes: SHA256=45a469d3284599d87a4863b4d3d9b1e88f9c3f586cd93ccf958cbb04f5bd09d6
+	ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ParentProcessId: 50044
+	ParentImage: -
+	ParentCommandLine: -
+	ParentUser: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.707
+	ProcessGuid: {b5bc5867-3263-6916-fdf0-1e0850640000}
+	ProcessId: 50055
+	Image: /usr/lib/systemd/system-generators/systemd-getty-generator
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: /usr/lib/systemd/system-generators/systemd-getty-generator /run/systemd/generator /run/systemd/generator.early /run/systemd/generator.late
+	CurrentDirectory: /
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000000000000}
+	LogonId: 0
+	TerminalSessionId: 4294967295
+	IntegrityLevel: no level
+	Hashes: SHA256=c0c6522736598d5078e4dd9e1bc7757dd89da68d5b83cf161d05aca91f3768f7
+	ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ParentProcessId: 50044
+	ParentImage: -
+	ParentCommandLine: -
+	ParentUser: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.707
+	ProcessGuid: {b5bc5867-3263-6916-89b5-01fac6620000}
+	ProcessId: 50054
+	Image: /usr/lib/systemd/system-generators/systemd-fstab-generator
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: /usr/lib/systemd/system-generators/systemd-fstab-generator /run/systemd/generator /run/systemd/generator.early /run/systemd/generator.late
+	CurrentDirectory: /
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000000000000}
+	LogonId: 0
+	TerminalSessionId: 4294967295
+	IntegrityLevel: no level
+	Hashes: SHA256=c51cbb64ce9f108b44180d2b287a65d6473606d86d0f9143a933d0be9638cba3
+	ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ParentProcessId: 50044
+	ParentImage: -
+	ParentCommandLine: -
+	ParentUser: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.708
+	ProcessGuid: {b5bc5867-3263-6916-8dc6-2c5aa5600000}
+	ProcessId: 50056
+	Image: /usr/lib/systemd/system-generators/systemd-gpt-auto-generator
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: /usr/lib/systemd/system-generators/systemd-gpt-auto-generator /run/systemd/generator /run/systemd/generator.early /run/systemd/generator.late
+	CurrentDirectory: /
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000000000000}
+	LogonId: 0
+	TerminalSessionId: 4294967295
+	IntegrityLevel: no level
+	Hashes: SHA256=68420078ee60d03cb00caf78e1c3552caa7742f17210c5ba83c569c7ad69ba73
+	ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ParentProcessId: 50044
+	ParentImage: -
+	ParentCommandLine: -
+	ParentUser: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.712
+	ProcessGuid: {b5bc5867-3263-6916-e9ab-e6bf47600000}
+	ProcessId: 50058
+	Image: /usr/lib/systemd/system-generators/systemd-hibernate-resume-generator
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: /usr/lib/systemd/system-generators/systemd-hibernate-resume-generator /run/systemd/generator /run/systemd/generator.early /run/systemd/generator.late
+	CurrentDirectory: /
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000000000000}
+	LogonId: 0
+	TerminalSessionId: 4294967295
+	IntegrityLevel: no level
+	Hashes: SHA256=fb6afbda369e2323c43a5389a63a9fb7b4aac1cda55e212f8e59e202c2db38d2
+	ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ParentProcessId: 50044
+	ParentImage: -
+	ParentCommandLine: -
+	ParentUser: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.708
+	ProcessGuid: {b5bc5867-3263-6916-9150-babcf4590000}
+	ProcessId: 50057
+	Image: /usr/bin/ls
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: ls *.conf
+	CurrentDirectory: /etc/openvpn
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000000000000}
+	LogonId: 0
+	TerminalSessionId: 4294967295
+	IntegrityLevel: no level
+	Hashes: SHA256=12a6d908a68ccf6f9f3d799705577c28763f5deef6eddcff7643d6d8a6de543d
+	ParentProcessGuid: {b5bc5867-3263-6916-95f9-506dd85f0000}
+	ParentProcessId: 50047
+	ParentImage: /usr/bin/dash
+	ParentCommandLine: /bin/sh
+	ParentUser: root
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.712
+	ProcessGuid: {b5bc5867-3263-6916-7d98-1db1b85c0000}
+	ProcessId: 50059
+	Image: /usr/lib/systemd/system-generators/systemd-rc-local-generator
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: /usr/lib/systemd/system-generators/systemd-rc-local-generator /run/systemd/generator /run/systemd/generator.early /run/systemd/generator.late
+	CurrentDirectory: /
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000000000000}
+	LogonId: 0
+	TerminalSessionId: 4294967295
+	IntegrityLevel: no level
+	Hashes: SHA256=aa218a3c3ad13664094d837045192f1c452c2209d26271a914a8ca8b0dc8cdbe
+	ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ParentProcessId: 50044
+	ParentImage: -
+	ParentCommandLine: -
+	ParentUser: -
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.726
+	ProcessGuid: {b5bc5867-3263-6916-9150-babcf4590000}
+	ProcessId: 50057
+	Image: /usr/bin/ls
+	User: root
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.727
+	ProcessGuid: {b5bc5867-3263-6916-1944-c954105e0000}
+	ProcessId: 50046
+	User: -
+	Image: /usr/libexec/netplan/generate
+	TargetFilename: /run/NetworkManager/conf.d/10-globally-managed-devices.conf
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.727
+	ProcessGuid: {b5bc5867-3263-6916-1944-c954105e0000}
+	ProcessId: 50046
+	User: -
+	Image: /usr/libexec/netplan/generate
+	TargetFilename: //run/systemd/system/systemd-networkd.service.wants/netplan-ovs-cleanup.service
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.727
+	ProcessGuid: {b5bc5867-3263-6916-1944-c954105e0000}
+	ProcessId: 50046
+	User: -
+	Image: /usr/libexec/netplan/generate
+	TargetFilename: //run/systemd/system/netplan-ovs-cleanup.service
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_FILE_CREATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.727
+	ProcessGuid: {b5bc5867-3263-6916-1944-c954105e0000}
+	ProcessId: 50046
+	Image: /usr/libexec/netplan/generate
+	TargetFilename: /run/systemd/system/netplan-ovs-cleanup.service.KCM8F3
+	CreationUtcTime: 2025-11-13 19:32:51.727
+	User: -
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.729
+	ProcessGuid: {b5bc5867-3263-6916-95f9-506dd85f0000}
+	ProcessId: 50047
+	Image: /usr/bin/dash
+	User: root
+Event SYSMONEVENT_FILE_CREATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.733
+	ProcessGuid: {b5bc5867-3263-6916-1944-c954105e0000}
+	ProcessId: 50046
+	Image: /usr/libexec/netplan/generate
+	TargetFilename: /run/NetworkManager/conf.d/10-globally-managed-devices.conf.QCE8F3
+	CreationUtcTime: 2025-11-13 19:32:51.733
+	User: -
+Event SYSMONEVENT_FILE_CREATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.733
+	ProcessGuid: {b5bc5867-3263-6916-1944-c954105e0000}
+	ProcessId: 50046
+	Image: /usr/libexec/netplan/generate
+	TargetFilename: /run/systemd/generator/netplan.stamp
+	CreationUtcTime: 2025-11-13 19:32:51.733
+	User: -
+Event SYSMONEVENT_FILE_CREATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.734
+	ProcessGuid: {b5bc5867-3263-6916-89b5-01fac6620000}
+	ProcessId: 50054
+	Image: /usr/lib/systemd/system-generators/systemd-fstab-generator
+	TargetFilename: /run/systemd/generator/-.mount
+	CreationUtcTime: 2025-11-13 19:32:51.734
+	User: -
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.736
+	ProcessGuid: {b5bc5867-3263-6916-fdf0-1e0850640000}
+	ProcessId: 50055
+	Image: /usr/lib/systemd/system-generators/systemd-getty-generator
+	User: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.737
+	ProcessGuid: {b5bc5867-3263-6916-edcf-982545590000}
+	ProcessId: 50051
+	Image: /usr/lib/systemd/system-generators/systemd-cryptsetup-generator
+	User: root
+Event SYSMONEVENT_FILE_CREATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.737
+	ProcessGuid: {b5bc5867-3263-6916-89b5-01fac6620000}
+	ProcessId: 50054
+	Image: /usr/lib/systemd/system-generators/systemd-fstab-generator
+	TargetFilename: /run/systemd/generator/boot-efi.mount
+	CreationUtcTime: 2025-11-13 19:32:51.737
+	User: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.727
+	ProcessGuid: {b5bc5867-3263-6916-d5ce-d7e72a610000}
+	ProcessId: 50060
+	Image: /usr/lib/systemd/system-generators/systemd-run-generator
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: /usr/lib/systemd/system-generators/systemd-run-generator /run/systemd/generator /run/systemd/generator.early /run/systemd/generator.late
+	CurrentDirectory: /
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000000000000}
+	LogonId: 0
+	TerminalSessionId: 4294967295
+	IntegrityLevel: no level
+	Hashes: SHA256=9cf46e039862c5534c05ead37142451cb5ba518cdb99bf9772273352b4e87205
+	ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ParentProcessId: 50044
+	ParentImage: -
+	ParentCommandLine: -
+	ParentUser: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.728
+	ProcessGuid: {b5bc5867-3263-6916-f1a8-1c0aa05b0000}
+	ProcessId: 50061
+	Image: /usr/lib/systemd/system-generators/systemd-system-update-generator
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: /usr/lib/systemd/system-generators/systemd-system-update-generator /run/systemd/generator /run/systemd/generator.early /run/systemd/generator.late
+	CurrentDirectory: /
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000000000000}
+	LogonId: 0
+	TerminalSessionId: 4294967295
+	IntegrityLevel: no level
+	Hashes: SHA256=d8120231acfc3337043f8f464ae8df89ea1af62d36732349b13eed6f144b9026
+	ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ParentProcessId: 50044
+	ParentImage: -
+	ParentCommandLine: -
+	ParentUser: -
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.728
+	ProcessGuid: {b5bc5867-3263-6916-59a3-a333a9620000}
+	ProcessId: 50062
+	Image: /usr/lib/systemd/system-generators/systemd-sysv-generator
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: /usr/lib/systemd/system-generators/systemd-sysv-generator /run/systemd/generator /run/systemd/generator.early /run/systemd/generator.late
+	CurrentDirectory: /
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000000000000}
+	LogonId: 0
+	TerminalSessionId: 4294967295
+	IntegrityLevel: no level
+	Hashes: SHA256=2245bf88a71f0a7cdb867e31f094cc264398eef94f96d678bea3e65bfb1c61e9
+	ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ParentProcessId: 50044
+	ParentImage: -
+	ParentCommandLine: -
+	ParentUser: -
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.742
+	ProcessGuid: {b5bc5867-3263-6916-1944-c954105e0000}
+	ProcessId: 50046
+	Image: /usr/libexec/netplan/generate
+	User: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.742
+	ProcessGuid: {b5bc5867-3263-6916-e9ab-e6bf47600000}
+	ProcessId: 50058
+	Image: /usr/lib/systemd/system-generators/systemd-hibernate-resume-generator
+	User: root
+Event SYSMONEVENT_FILE_CREATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.744
+	ProcessGuid: {b5bc5867-3263-6916-89b5-01fac6620000}
+	ProcessId: 50054
+	Image: /usr/lib/systemd/system-generators/systemd-fstab-generator
+	TargetFilename: /run/systemd/generator/swapfile.swap
+	CreationUtcTime: 2025-11-13 19:32:51.744
+	User: -
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.745
+	ProcessGuid: {b5bc5867-3263-6916-89b5-01fac6620000}
+	ProcessId: 50054
+	Image: /usr/lib/systemd/system-generators/systemd-fstab-generator
+	User: root
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.728
+	ProcessGuid: {b5bc5867-3263-6916-d5e2-a48580600000}
+	ProcessId: 50063
+	Image: /usr/lib/systemd/system-generators/systemd-veritysetup-generator
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: /usr/lib/systemd/system-generators/systemd-veritysetup-generator /run/systemd/generator /run/systemd/generator.early /run/systemd/generator.late
+	CurrentDirectory: /
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000000000000}
+	LogonId: 0
+	TerminalSessionId: 4294967295
+	IntegrityLevel: no level
+	Hashes: SHA256=f23a506e31516521799aaaece59fa363e444554338ee723b21ab4b8efa4761c1
+	ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ParentProcessId: 50044
+	ParentImage: -
+	ParentCommandLine: -
+	ParentUser: -
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.752
+	ProcessGuid: {b5bc5867-3263-6916-39e6-2109125a0000}
+	ProcessId: 50049
+	Image: /usr/lib/systemd/system-generators/systemd-bless-boot-generator
+	User: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.754
+	ProcessGuid: {b5bc5867-3263-6916-6d2f-a84134620000}
+	ProcessId: 50053
+	Image: /usr/lib/systemd/system-generators/systemd-debug-generator
+	User: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.757
+	ProcessGuid: {b5bc5867-3263-6916-f1a8-1c0aa05b0000}
+	ProcessId: 50061
+	Image: /usr/lib/systemd/system-generators/systemd-system-update-generator
+	User: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.758
+	ProcessGuid: {b5bc5867-3263-6916-d5ce-d7e72a610000}
+	ProcessId: 50060
+	Image: /usr/lib/systemd/system-generators/systemd-run-generator
+	User: root
+Event SYSMONEVENT_RAWACCESS_READ
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.758
+	ProcessGuid: {b5bc5867-3263-6916-8dc6-2c5aa5600000}
+	ProcessId: 50056
+	Image: /usr/lib/systemd/system-generators/systemd-gpt-auto-generator
+	Device: /dev/sda
+	User: -
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.760
+	ProcessGuid: {b5bc5867-3263-6916-7d98-1db1b85c0000}
+	ProcessId: 50059
+	Image: /usr/lib/systemd/system-generators/systemd-rc-local-generator
+	User: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.761
+	ProcessGuid: {b5bc5867-3263-6916-d5e2-a48580600000}
+	ProcessId: 50063
+	Image: /usr/lib/systemd/system-generators/systemd-veritysetup-generator
+	User: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.786
+	ProcessGuid: {b5bc5867-3263-6916-8dc6-2c5aa5600000}
+	ProcessId: 50056
+	Image: /usr/lib/systemd/system-generators/systemd-gpt-auto-generator
+	User: root
+Event SYSMONEVENT_FILE_CREATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.799
+	ProcessGuid: {b5bc5867-3263-6916-59a3-a333a9620000}
+	ProcessId: 50062
+	Image: /usr/lib/systemd/system-generators/systemd-sysv-generator
+	TargetFilename: /run/systemd/generator.late/speech-dispatcher.service
+	CreationUtcTime: 2025-11-13 19:32:51.799
+	User: -
+Event SYSMONEVENT_FILE_CREATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.799
+	ProcessGuid: {b5bc5867-3263-6916-59a3-a333a9620000}
+	ProcessId: 50062
+	Image: /usr/lib/systemd/system-generators/systemd-sysv-generator
+	TargetFilename: /run/systemd/generator.late/apport.service
+	CreationUtcTime: 2025-11-13 19:32:51.799
+	User: -
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.800
+	ProcessGuid: {b5bc5867-3263-6916-59a3-a333a9620000}
+	ProcessId: 50062
+	Image: /usr/lib/systemd/system-generators/systemd-sysv-generator
+	User: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:51.801
+	ProcessGuid: {b5bc5867-7440-690a-6dd5-3ce8db630000}
+	ProcessId: 50044
+	Image: -
+	User: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.055
+	ProcessGuid: {b5bc5867-3263-6916-ed3f-86c3c5620000}
+	ProcessId: 50041
+	Image: /usr/bin/systemctl
+	User: root
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.055
+	ProcessGuid: {b5bc5867-3264-6916-edcf-886ae15b0000}
+	ProcessId: 50064
+	Image: /usr/bin/systemctl
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: systemctl start thuglyfe.service
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000001000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=41834a675dbc3a7fc0169a24e655c5f14d8045bc7094efa65b35d8c69eb3df27
+	ParentProcessGuid: {b5bc5867-3263-6916-6d1f-86fe8e580000}
+	ParentProcessId: 50027
+	ParentImage: /usr/bin/bash
+	ParentCommandLine: /bin/bash
+	ParentUser: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.064
+	ProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ProcessId: 50065
+	Image: <unknown process>
+	User: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.065
+	ProcessGuid: {b5bc5867-3264-6916-edcf-886ae15b0000}
+	ProcessId: 50064
+	Image: /usr/bin/systemctl
+	User: root
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.065
+	ProcessGuid: {b5bc5867-3264-6916-f102-1c39cd5b0000}
+	ProcessId: 50067
+	Image: /usr/bin/crontab
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: crontab -
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000001000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=11651a4bd5c9605dac9df09bcb1ce16e40e740558766081a784e16db0098c042
+	ParentProcessGuid: {b5bc5867-3263-6916-6d1f-86fe8e580000}
+	ParentProcessId: 50027
+	ParentImage: /usr/bin/bash
+	ParentCommandLine: /bin/bash
+	ParentUser: root
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.065
+	ProcessGuid: {b5bc5867-3264-6916-f142-1387ea620000}
+	ProcessId: 50068
+	Image: /usr/bin/crontab
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: crontab -l
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000001000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=11651a4bd5c9605dac9df09bcb1ce16e40e740558766081a784e16db0098c042
+	ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ParentProcessId: 50066
+	ParentImage: -
+	ParentCommandLine: -
+	ParentUser: -
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.068
+	ProcessGuid: {b5bc5867-3264-6916-f142-1387ea620000}
+	ProcessId: 50068
+	Image: /usr/bin/crontab
+	User: -
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.069
+	ProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ProcessId: 50066
+	Image: <unknown process>
+	User: root
+Event SYSMONEVENT_FILE_CREATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.074
+	ProcessGuid: {b5bc5867-3264-6916-f102-1c39cd5b0000}
+	ProcessId: 50067
+	Image: /usr/bin/crontab
+	TargetFilename: /var/spool/cron/crontabs/tmp.f8lpsW
+	CreationUtcTime: 2025-11-13 19:32:52.074
+	User: -
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.076
+	ProcessGuid: {b5bc5867-3264-6916-f102-1c39cd5b0000}
+	ProcessId: 50067
+	Image: /usr/bin/crontab
+	User: root
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.077
+	ProcessGuid: {b5bc5867-3264-6916-e194-300e45580000}
+	ProcessId: 50069
+	Image: /usr/bin/mkdir
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: mkdir -p /etc/cron.d
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000001000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=bd2f081ac37d653181332bd27f35a6041dbf215a7957f65838a9cbec9e64928b
+	ParentProcessGuid: {b5bc5867-3263-6916-6d1f-86fe8e580000}
+	ParentProcessId: 50027
+	ParentImage: /usr/bin/bash
+	ParentCommandLine: /bin/bash
+	ParentUser: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.078
+	ProcessGuid: {b5bc5867-3264-6916-e194-300e45580000}
+	ProcessId: 50069
+	Image: /usr/bin/mkdir
+	User: root
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.084
+	ProcessGuid: {b5bc5867-3264-6916-bd6b-eb9a315e0000}
+	ProcessId: 50070
+	Image: /usr/sbin/useradd
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: useradd -m sudoadmin
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000001000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=cd33b9103e5c0122d8259560496c8a813d427dfd153dab067b737ccdba9a574e
+	ParentProcessGuid: {b5bc5867-3263-6916-6d1f-86fe8e580000}
+	ParentProcessId: 50027
+	ParentImage: /usr/bin/bash
+	ParentCommandLine: /bin/bash
+	ParentUser: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.111
+	ProcessGuid: {b5bc5867-3264-6916-bd6b-eb9a315e0000}
+	ProcessId: 50070
+	Image: /usr/sbin/useradd
+	User: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.112
+	ProcessGuid: {b5bc5867-3264-6916-0000-000000000000}
+	ProcessId: 50071
+	Image: -
+	User: root
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.111
+	ProcessGuid: {b5bc5867-3264-6916-fde4-1c2eb0580000}
+	ProcessId: 50072
+	Image: /usr/bin/sudo
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: sudo chpasswd
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000001000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=686287d80efa1400561301a1c9fc1d35e03b74adde29bd94e5178a36e7b0a6c8
+	ParentProcessGuid: {b5bc5867-3263-6916-6d1f-86fe8e580000}
+	ParentProcessId: 50027
+	ParentImage: /usr/bin/bash
+	ParentCommandLine: /bin/bash
+	ParentUser: root
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.133
+	ProcessGuid: {b5bc5867-3264-6916-d5f3-e675f9630000}
+	ProcessId: 50074
+	Image: /usr/sbin/chpasswd
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: chpasswd
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-3264-6916-0000-000006000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=e0c190eb148040cc5f1e5dd6ec3b22b2592c3a71b89db67f019236fad7f6e92a
+	ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ParentProcessId: 50073
+	ParentImage: -
+	ParentCommandLine: -
+	ParentUser: -
+Event SYSMONEVENT_FILE_CREATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.231
+	ProcessGuid: {b5bc5867-3264-6916-d5f3-e675f9630000}
+	ProcessId: 50074
+	Image: /usr/sbin/chpasswd
+	TargetFilename: /etc/nshadow
+	CreationUtcTime: 2025-11-13 19:32:52.231
+	User: -
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.236
+	ProcessGuid: {b5bc5867-3264-6916-0000-000000000000}
+	ProcessId: 50075
+	Image: -
+	User: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.236
+	ProcessGuid: {b5bc5867-3264-6916-0000-000000000000}
+	ProcessId: 50076
+	Image: -
+	User: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.237
+	ProcessGuid: {b5bc5867-3264-6916-d5f3-e675f9630000}
+	ProcessId: 50074
+	Image: /usr/sbin/chpasswd
+	User: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.237
+	ProcessGuid: {b5bc5867-3264-6916-0000-000000000000}
+	ProcessId: 50073
+	Image: -
+	User: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.241
+	ProcessGuid: {b5bc5867-3264-6916-fde4-1c2eb0580000}
+	ProcessId: 50072
+	Image: /usr/bin/sudo
+	User: root
+Event SYSMONEVENT_CREATE_PROCESS
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.242
+	ProcessGuid: {b5bc5867-3264-6916-d94a-86ec73560000}
+	ProcessId: 50077
+	Image: /usr/sbin/usermod
+	FileVersion: -
+	Description: -
+	Product: -
+	Company: -
+	OriginalFileName: -
+	CommandLine: usermod -aG sudo sudoadmin
+	CurrentDirectory: /home/champuser/Desktop/Week11/thuglyfe
+	User: root
+	LogonGuid: {b5bc5867-0000-0000-0000-000001000000}
+	LogonId: 0
+	TerminalSessionId: 7
+	IntegrityLevel: no level
+	Hashes: SHA256=80d263c2e079db09bae32084d5e59ad1f51699118d3e43adf7692f7af94417df
+	ParentProcessGuid: {b5bc5867-3263-6916-6d1f-86fe8e580000}
+	ParentProcessId: 50027
+	ParentImage: /usr/bin/bash
+	ParentCommandLine: /bin/bash
+	ParentUser: root
+Event SYSMONEVENT_FILE_CREATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.247
+	ProcessGuid: {b5bc5867-3264-6916-d94a-86ec73560000}
+	ProcessId: 50077
+	Image: /usr/sbin/usermod
+	TargetFilename: /etc/passwd.50077
+	CreationUtcTime: 2025-11-13 19:32:52.247
+	User: -
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.248
+	ProcessGuid: {b5bc5867-3264-6916-d94a-86ec73560000}
+	ProcessId: 50077
+	User: -
+	Image: /usr/sbin/usermod
+	TargetFilename: /etc/passwd.50077
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_FILE_CREATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.248
+	ProcessGuid: {b5bc5867-3264-6916-d94a-86ec73560000}
+	ProcessId: 50077
+	Image: /usr/sbin/usermod
+	TargetFilename: /etc/shadow.50077
+	CreationUtcTime: 2025-11-13 19:32:52.248
+	User: -
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.248
+	ProcessGuid: {b5bc5867-3264-6916-d94a-86ec73560000}
+	ProcessId: 50077
+	User: -
+	Image: /usr/sbin/usermod
+	TargetFilename: /etc/shadow.50077
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_FILE_CREATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.248
+	ProcessGuid: {b5bc5867-3264-6916-d94a-86ec73560000}
+	ProcessId: 50077
+	Image: /usr/sbin/usermod
+	TargetFilename: /etc/group.50077
+	CreationUtcTime: 2025-11-13 19:32:52.248
+	User: -
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.248
+	ProcessGuid: {b5bc5867-3264-6916-d94a-86ec73560000}
+	ProcessId: 50077
+	User: -
+	Image: /usr/sbin/usermod
+	TargetFilename: /etc/group.50077
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_FILE_CREATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.248
+	ProcessGuid: {b5bc5867-3264-6916-d94a-86ec73560000}
+	ProcessId: 50077
+	Image: /usr/sbin/usermod
+	TargetFilename: /etc/gshadow.50077
+	CreationUtcTime: 2025-11-13 19:32:52.248
+	User: -
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.248
+	ProcessGuid: {b5bc5867-3264-6916-d94a-86ec73560000}
+	ProcessId: 50077
+	User: -
+	Image: /usr/sbin/usermod
+	TargetFilename: /etc/gshadow.50077
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.249
+	ProcessGuid: {b5bc5867-3264-6916-d94a-86ec73560000}
+	ProcessId: 50077
+	User: -
+	Image: /usr/sbin/usermod
+	TargetFilename: /etc/gshadow.lock
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.249
+	ProcessGuid: {b5bc5867-3264-6916-d94a-86ec73560000}
+	ProcessId: 50077
+	User: -
+	Image: /usr/sbin/usermod
+	TargetFilename: /etc/group.lock
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.249
+	ProcessGuid: {b5bc5867-3264-6916-d94a-86ec73560000}
+	ProcessId: 50077
+	User: -
+	Image: /usr/sbin/usermod
+	TargetFilename: /etc/shadow.lock
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.250
+	ProcessGuid: {b5bc5867-3264-6916-d94a-86ec73560000}
+	ProcessId: 50077
+	User: -
+	Image: /usr/sbin/usermod
+	TargetFilename: /etc/passwd.lock
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.250
+	ProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ProcessId: 50078
+	Image: <unknown process>
+	User: -
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.251
+	ProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ProcessId: 50079
+	Image: <unknown process>
+	User: -
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.251
+	ProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ProcessId: 50080
+	Image: <unknown process>
+	User: -
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.251
+	ProcessGuid: {b5bc5867-3264-6916-d94a-86ec73560000}
+	ProcessId: 50077
+	Image: /usr/sbin/usermod
+	User: -
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.252
+	ProcessGuid: {b5bc5867-3263-6916-6d1f-86fe8e580000}
+	ProcessId: 50027
+	Image: /usr/bin/bash
+	User: -
+Event SYSMONEVENT_FILE_DELETE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.252
+	ProcessGuid: {b5bc5867-325c-6916-6181-d29f2e600000}
+	ProcessId: 50026
+	User: -
+	Image: /home/champuser/Desktop/Week11/thuglyfe/thug_simulator
+	TargetFilename: /var/tmp/asefa.sh
+	Hashes: -
+	IsExecutable: -
+	Archived: -
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.541
+	ProcessGuid: {b5bc5867-58a9-690a-415c-e3d2a7610000}
+	ProcessId: 220
+	Image: /usr/lib/systemd/systemd-journald
+	User: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:52.544
+	ProcessGuid: {b5bc5867-58a9-690a-415c-e3d2a7610000}
+	ProcessId: 220
+	Image: /usr/lib/systemd/systemd-journald
+	User: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:32:55.979
+	ProcessGuid: {b5bc5867-7441-690a-9d8a-89a2ef5a0000}
+	ProcessId: 1466
+	Image: /usr/bin/gnome-shell
+	User: champuser
+Event SYSMONEVENT_FILE_CREATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:33:59.056
+	ProcessGuid: {b5bc5867-58aa-690a-4dd8-ebb1095e0000}
+	ProcessId: 493
+	Image: /usr/usr/sbin/NetworkManager
+	TargetFilename: /var/lib/NetworkManager/timestamps.64WZF3
+	CreationUtcTime: 2025-11-13 19:33:59.056
+	User: -
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:34:00.146
+	ProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ProcessId: 48453
+	Image: <unknown process>
+	User: root
+Event SYSMONEVENT_NETWORK_CONNECT
+	RuleName: -
+	UtcTime: 2025-11-13 19:34:41.138
+	ProcessGuid: {b5bc5867-58aa-690a-4dd8-ebb1095e0000}
+	ProcessId: 493
+	Image: /usr/sbin/NetworkManager
+	User: root
+	Protocol: tcp
+	Initiated: true
+	SourceIsIpv6: false
+	SourceIp: 10.0.17.55
+	SourceHostname: -
+	SourcePort: 43608
+	SourcePortName: -
+	DestinationIsIpv6: false
+	DestinationIp: 91.189.91.49
+	DestinationHostname: -
+	DestinationPort: 80
+	DestinationPortName: -
+Event SYSMONEVENT_FILE_CREATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:35:17.964
+	ProcessGuid: {b5bc5867-7441-690a-9d8a-89a2ef5a0000}
+	ProcessId: 1466
+	Image: /usr/bin/gnome-shell
+	TargetFilename: /home/champuser/.local/share/gnome-shell/.goutputstream-EM31F3
+	CreationUtcTime: 2025-11-13 19:35:17.964
+	User: champuser
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:35:33.475
+	ProcessGuid: {b5bc5867-7441-690a-9d8a-89a2ef5a0000}
+	ProcessId: 1466
+	Image: /usr/bin/gnome-shell
+	User: champuser
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:35:58.965
+	ProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ProcessId: 48520
+	Image: <unknown process>
+	User: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:37:29.027
+	ProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ProcessId: 48374
+	Image: <unknown process>
+	User: -
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:37:29.027
+	ProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ProcessId: 30838
+	Image: <unknown process>
+	User: -
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:37:49.506
+	ProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ProcessId: 11
+	Image: <unknown process>
+	User: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:37:52.786
+	ProcessGuid: {b5bc5867-58a9-690a-415c-e3d2a7610000}
+	ProcessId: 220
+	Image: /usr/lib/systemd/systemd-journald
+	User: root
+Event SYSMONEVENT_FILE_CREATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:38:59.077
+	ProcessGuid: {b5bc5867-58aa-690a-4dd8-ebb1095e0000}
+	ProcessId: 493
+	Image: /usr/usr/sbin/NetworkManager
+	TargetFilename: /var/lib/NetworkManager/timestamps.MU6ZF3
+	CreationUtcTime: 2025-11-13 19:38:59.077
+	User: -
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:39:07.330
+	ProcessGuid: {00000000-0000-0000-0000-000000000000}
+	ProcessId: 48369
+	Image: <unknown process>
+	User: root
+Event SYSMONEVENT_PROCESS_TERMINATE
+	RuleName: -
+	UtcTime: 2025-11-13 19:39:14.577
+	ProcessGuid: {b5bc5867-58aa-690a-6d00-c6bb74550000}
+	ProcessId: 530
+	Image: /usr/libexec/udisks2/udisksd
+	User: root
